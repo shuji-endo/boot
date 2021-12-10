@@ -13,7 +13,7 @@
         <tr th:each="item : ${list}" th:object="${item}">
           <td th:text="*{id}"></td>
           <td th:text="*{locationId}"></td>
-          <td th:text="*{name}"></td>
+          <td th:text="*{name}">abc</td>
           <td th:text="*{temperature}"></td>
           <td th:text="*{hamidity}"></td>
         </tr>
